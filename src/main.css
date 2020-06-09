@@ -22,12 +22,19 @@
 main {
   position: relative;
   grid-area: main;
+  display: grid;
+  gap: 15px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+      "home";
   background-image: url("./img/focos.png");
   background-repeat: no-repeat;
-  background-position:0% -5%;
+  background-position:0% -0.1%;
   align-content: center;
   justify-content: center;
-  padding-top: 120px;
+  justify-items: center;
+  padding-top: 150px;
 }
 
 nav {
@@ -36,7 +43,7 @@ nav {
   display: flex;
   justify-self: center;
   justify-content: center;
-  width: 80%;
+  width: 65%;
   background-color: #333;
 }
 
@@ -55,7 +62,7 @@ nav, nav a {
   padding: 10px;
 }
 
-nav a {
+.nav-element {
   float: left;
   color: #f2f2f2;
   margin: 0 60px;
@@ -66,12 +73,16 @@ nav a {
   font-size: 17px;
 }
 
-nav a:hover {
+#logo-link {
+  margin: 0;
+}
+
+.nav-element:hover {
   background-color: #ddd;
   color: black;
 }
 
-nav a.active {
+.nav-element .active {
   background-color: #eb8d00;
   color: #fff;
 }
@@ -86,6 +97,7 @@ footer {
   color: #fff;
   text-align: center;
   letter-spacing: 4px;
+  font-family: Piedra;
 }
 
 /* media queries */
@@ -114,36 +126,101 @@ footer {
 
 /* main section  */
 
-.home {
+/* home  */
+
+#home {
   position: relative;
+  grid-area: home;
   display: grid;
-  width: 80%;
-  gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: 
-    "item-1 item-2"
-    "item-3 item-4";
-  background-color: black;
+  width: 986px;
+  height: 778px;
+  overflow: visible;
 }
 
 .item {
   position: relative;
-  display: flex;
-  height: 400px;
+  display: flex;  
+  background-image: url("./img/bienve.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.i-1 {
-  background-color: #eee;
-}
+  /* concepto */
 
-.i-2 {
-  background-color: #4ae;
-}
+  #concepto {
+    position: relative;
+    grid-area: concepto;
+    display: grid;
+    width: 986px;
+    height: 778px;
+    overflow: visible;
+    background-color: yellowgreen;
+  }
+  
+  .item-2 {
+    position: relative;
+    display: flex;  
+    background-image: url("./img/concepto.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.i-3 {
-  background-color: #6a5;
-}
+    /* estelares */
 
-.i-4 {
-  background-color: #e1e;
-}
+    #estelares {
+      position: relative;
+      grid-area: estelares;
+      display: grid;
+      width: 80%;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: 
+        "item-1 item-2"
+        "item-3 item-4";
+      background-color: coral;
+    }
+
+    /* carta */
+
+    #carta {
+      position: relative;
+      grid-area: carta;
+      display: grid;
+      width: 80%;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: 
+        "item-1 item-2"
+        "item-3 item-4";
+      background-color: teal;
+    }
+
+    /* domicilio */
+
+    #domicilio {
+      position: relative;
+      grid-area: domicilio;
+      display: grid;
+      width: 80%;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: 
+        "item-1 item-2"
+        "item-3 item-4";
+      background-color: darkgoldenrod;
+    }
+
+    /* contacto */
+
+    #contacto {
+      position: relative;
+      grid-area: contacto;
+      display: grid;
+      width: 80%;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: 
+        "item-1 item-2"
+        "item-3 item-4";
+        background-color: red;
+    }
