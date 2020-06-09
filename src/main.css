@@ -7,6 +7,11 @@
   src: url(./Piedra-Regular.ttf);
 }
 
+@font-face {
+  font-family: Pacifico;
+  src: url(./Pacifico-Regular.ttf);
+}
+
 .wrapper {
   position: relative;
   display: grid;
@@ -242,4 +247,59 @@ footer {
     background-image: url("./img/galeria.gif");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  /* domicilio */
+
+  #domicilio {
+    position: relative;
+    grid-area: section;
+    display: grid;
+    width: 60%;
+    gap: 1rem;
+    margin-top: -55px;
+    grid-template-columns: auto 25%;
+    grid-template-rows: 340px 580px;
+    grid-template-areas: 
+      "a b"
+      "c b";
+  }
+
+  #domicilio .item-1 {
+    grid-area: a;
+    position: relative;
+    display: flex;  
+    background-image: url("./img/taquizasadom.png");
+    background-repeat: no-repeat;
+    background-size: 804px 304px;
+    background-position: 0% 50%;
+  }
+
+  #domicilio .item-2 {
+    grid-area: b;
+    position: relative;
+    display: flex;  
+    background-image: url("./img/sucursales.png");
+    background-repeat: no-repeat;
+    background-size: 250px 735px;
+    background-position: center center;
+  }
+
+  #domicilio .item-3 {
+    grid-area: c;
+    position: relative;
+    display: grid;
+    align-items: initial;
+    justify-content: center;
+    margin-top: -55px;
+  }
+
+  .map {
+    font-family: Pacifico, 'Helvetica Neue';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #000;
+    text-shadow: 2px 2px #555;
+    transform: rotate(-8deg);
   }
