@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @font-face {
@@ -303,3 +304,62 @@ footer {
     text-shadow: 2px 2px #555;
     transform: rotate(-8deg);
   }
+
+/* contacto  */
+
+#contacto {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 973px;
+  height: 498px;
+  overflow: visible;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+#contacto .item {
+  position: relative;
+  display: flex;  
+  background-image: url("./img/contacto-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mail-form {
+  position: absolute;
+  display: grid;
+  top: 80px;
+  right: 280px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.frm-section {
+  margin: 15px 0;
+}
+
+.frm-section input, .frm-section textarea {
+  margin-top: 3px;
+  width: 100%;
+  border: 2px solid #9c9b97;
+  background-color: #e8e1cd;
+  color: #555;
+}
+
+.frm-section textarea {
+  margin-bottom: -5px;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: none;
+  color: #222;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
