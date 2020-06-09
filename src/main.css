@@ -137,7 +137,7 @@ footer {
   overflow: visible;
 }
 
-.item {
+#home .item {
   position: relative;
   display: flex;  
   background-image: url("./img/bienve.gif");
@@ -156,7 +156,7 @@ footer {
     margin-top: -100px;
   }
   
-  .item-2 {
+  #concepto .item {
     position: relative;
     display: flex;  
     background-image: url("./img/concepto.gif");
@@ -164,62 +164,82 @@ footer {
     background-size: cover;
   }
 
-    /* estelares */
+  /* estelares */
 
-    #estelares {
-      position: relative;
-      grid-area: section;
-      display: grid;
-      width: 80%;
-      gap: 1rem;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: 
-        "item-1 item-2"
-        "item-3 item-4";
-      background-color: coral;
-    }
+  #estelares {
+    position: relative;
+    grid-area: section;
+    display: grid;
+    width: 60%;
+    gap: 1rem;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 556px 278px;
+  }
 
-    /* carta */
+  #estelares .item-1 {   
+    position: relative;
+    display: flex;
+    background-image: url("./img/sucursalespromos.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
-    #carta {
-      position: relative;
-      grid-area: section;
-      display: grid;
-      width: 80%;
-      gap: 1rem;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: 
-        "item-1 item-2"
-        "item-3 item-4";
-      background-color: teal;
-    }
+  #estelares .item-2 {
+    position: relative;
+    display: flex;  
+    background-image: url("./img/promos.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 
-    /* domicilio */
+  #estelares .item-3 {
+    grid-column: 1 / span 2;
+    position: relative;
+    display: flex;  
+    background-image: url("./img/taqueso.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* carta */
 
-    #domicilio {
-      position: relative;
-      grid-area: section;
-      display: grid;
-      width: 80%;
-      gap: 1rem;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: 
-        "item-1 item-2"
-        "item-3 item-4";
-      background-color: darkgoldenrod;
-    }
+  #carta {
+    position: relative;
+    grid-area: section;
+    display: grid;
+    width: 60%;
+    gap: 1rem;
+    grid-template-columns: 45% auto;
+    grid-template-rows: 192px 685px;
+    grid-template-areas: 
+      "a b"
+      "c b";
+  }
 
-    /* contacto */
+  #carta .item-1 {
+    grid-area: a;
+    position: relative;
+    display: flex;  
+    background-image: url("./img/menubutton.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    #contacto {
-      position: relative;
-      grid-area: section;
-      display: grid;
-      width: 80%;
-      gap: 1rem;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas: 
-        "item-1 item-2"
-        "item-3 item-4";
-        background-color: red;
-    }
+  #carta .item-2 {
+    grid-area: b;
+    position: relative;
+    display: flex;  
+    background-image: url("./img/carta-desc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #carta .item-3 {
+    grid-area: c;
+    position: relative;
+    display: flex;  
+    background-image: url("./img/galeria.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
