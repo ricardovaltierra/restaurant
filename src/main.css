@@ -27,7 +27,7 @@ main {
     grid-template-columns: 100%;
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: 
-      "home";
+      "section";
   background-image: url("./img/focos.png");
   background-repeat: no-repeat;
   background-position:0% -0.1%;
@@ -130,7 +130,7 @@ footer {
 
 #home {
   position: relative;
-  grid-area: home;
+  grid-area: section;
   display: grid;
   width: 986px;
   height: 778px;
@@ -149,12 +149,11 @@ footer {
 
   #concepto {
     position: relative;
-    grid-area: concepto;
+    grid-area: section;
     display: grid;
-    width: 986px;
-    height: 778px;
-    overflow: visible;
-    background-color: yellowgreen;
+    width: 988px;
+    height: 945px;
+    margin-top: -100px;
   }
   
   .item-2 {
@@ -169,7 +168,7 @@ footer {
 
     #estelares {
       position: relative;
-      grid-area: estelares;
+      grid-area: section;
       display: grid;
       width: 80%;
       gap: 1rem;
@@ -184,7 +183,7 @@ footer {
 
     #carta {
       position: relative;
-      grid-area: carta;
+      grid-area: section;
       display: grid;
       width: 80%;
       gap: 1rem;
@@ -199,7 +198,7 @@ footer {
 
     #domicilio {
       position: relative;
-      grid-area: domicilio;
+      grid-area: section;
       display: grid;
       width: 80%;
       gap: 1rem;
@@ -214,7 +213,7 @@ footer {
 
     #contacto {
       position: relative;
-      grid-area: contacto;
+      grid-area: section;
       display: grid;
       width: 80%;
       gap: 1rem;
