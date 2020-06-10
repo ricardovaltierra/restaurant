@@ -4,12 +4,12 @@ export default function navbar() {
 
   const nav = document.createElement('nav');
   
-  nav.innerHTML = `<a href="" id="logo-link"><img src="${Image}" alt="Don Pastor" class="logo"></a>
-                   <a href="#concepto" class="nav-element">concepto</a>
-                   <a href="#estelares" class="nav-element">los estelares</a>
-                   <a href="#carta" class="nav-element">de la carta</a>
-                   <a href="#domicilio" class="nav-element">a domicilio</a>
-                   <a href="#contacto" class="nav-element">contacto</a>`;
+  nav.innerHTML = `<a href="#" class="home" id="logo-link"><img src="${Image}" alt="Don Pastor" class="logo"></a>
+                   <a href="#" class="nav-element" id="id-concepto">concepto</a>
+                   <a href="#" class="nav-element" id="id-estelares">los estelares</a>
+                   <a href="#" class="nav-element" id="id-carta">de la carta</a>
+                   <a href="#" class="nav-element" id="id-domicilio">a domicilio</a>
+                   <a href="#" class="nav-element" id="id-contacto">contacto</a>`;
   
   return nav;
 }

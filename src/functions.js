@@ -1,9 +1,17 @@
 import home from './home';
+import concepto from './concepto';
 
-function tabHome() {
+
+export function tabHome() {
   const content = document.getElementById('main');
   content.innerHTML = '';
   content.appendChild(home());
 }
 
-export default { tabHome }
+export function tabConcepto() {
+  const content = document.getElementById('main');
+  content.innerHTML = '';
+  content.appendChild(concepto());
+}
+
+export default { tabHome, tabConcepto };
