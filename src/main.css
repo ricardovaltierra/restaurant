@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: Piedra;
-  src: url(./Piedra-Regular.ttf);
+  src: url(./fonts/Piedra-Regular.ttf);
 }
 
 @font-face {
   font-family: Pacifico;
-  src: url(./Pacifico-Regular.ttf);
+  src: url(./fonts/Pacifico-Regular.ttf);
 }
 
 .wrapper {

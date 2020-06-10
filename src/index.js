@@ -1,15 +1,13 @@
-import _ from 'lodash';
+import './main.css';
+import navbar from './navbar';
+import mainElement from './main-element.js';
+import footer from './footer';
 
-function component() {
-  // const element = document.createElement('div');
+import { tabHome } from './functions';
 
-  const element = console.log("This is a test");
+document.getElementById('content').appendChild(navbar);
+document.getElementById('content').appendChild(mainElement);
+document.getElementById('content').appendChild(footer);
+tabHome();
 
-  // Lodash now imported
-  // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-  return element;
-}
-
-component();
-// document.body.appendChild(component());
+document.getElementById('logo').addEventListener('click', tabHome);
