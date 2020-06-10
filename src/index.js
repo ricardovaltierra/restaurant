@@ -12,7 +12,7 @@ tabHome();
 
 document.getElementById('logo-link').addEventListener('click', tabHome);
 document.getElementById('id-concepto').addEventListener('click', tabConcepto);
-document.getElementById('id-estelares').addEventListener('click', tabHome);
-document.getElementById('id-carta').addEventListener('click', tabHome);
-document.getElementById('id-domicilio').addEventListener('click', tabHome);
-document.getElementById('id-contacto').addEventListener('click', tabHome);
+document.getElementById('id-estelares').addEventListener('click', tabEstelares);
+document.getElementById('id-carta').addEventListener('click', tabCarta);
+document.getElementById('id-domicilio').addEventListener('click', tabDomicilio);
+document.getElementById('id-contacto').addEventListener('click', tabContacto);
