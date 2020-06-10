@@ -1,14 +1,17 @@
-JS-Tic-Tac-Toe
+Restaurant Page
 ==============
-Microverse Tic-Tac-Toe implemented with JS factory functions and inheritance pattern design
+Restaurant page tribute page project for the application of ES6 and webpack with modularized code;
 
-Have fun losing hours playing on our Tic-Tac-Toe gameboard the times you want. Register your name and go.
+The page is a tribute page from the official website for a mexican-food restaurant. All used images are property of developer team for 'http://www.donpastor.mx/';
 
 ### Built with
 
 - JS
-- CSS/Bulma
+- CSS
 - HTML
+- Node
+  - npm
+  - webpack
 
 
 ## Live Version
@@ -25,10 +28,10 @@ You can clone the repo and run over your personal server.
 
 ## 🤝 Contributing
 
-Contributions are more than welcome!<br/>Feel free to check [issues page](https://github.com/ricardovaltierra/JS-Tic-Tac-Toe/issues).
+Contributions are more than welcome!<br/>Feel free to check [issues page](https://github.com/ricardovaltierra/restaurant-page/issues).
 
 
-1. Fork (https://github.com/ricardovaltierra/JS-Tic-Tac-Toe/fork)
+1. Fork (https://github.com/ricardovaltierra/restaurant-page/fork)
 2. Create your working branch (git checkout -b [branch_name])
 3. Commit your changes (git commit -am 'what you will add or fix or improve')
 4. Push (git push origin [branch_name])
@@ -36,8 +39,6 @@ Contributions are more than welcome!<br/>Feel free to check [issues page](https:
 
 ## 🤖 Contributor
 
-Rey David Cuevas - [GitHub](https://github.com/redacuve)
-<br>
 Ricardo Valtierra - [GitHub](https://github.com/ricardovaltierra)
 
 ## 🙋‍♂ Support :)
