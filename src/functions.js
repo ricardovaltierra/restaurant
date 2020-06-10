@@ -1,7 +1,6 @@
 import home from './home';
 import concepto from './concepto';
 
-
 export function tabHome() {
   const content = document.getElementById('main');
   content.innerHTML = '';

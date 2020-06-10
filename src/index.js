@@ -3,7 +3,7 @@ import navbar from './navbar';
 import mainElement from './main-element';
 import footer from './footer';
 
-import { tabHome, tabConcepto } from './functions';
+import { tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto } from './functions';
 
 document.getElementById('content').appendChild(navbar());
 document.getElementById('content').appendChild(mainElement());
