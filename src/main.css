@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: Piedra;
+  font-family: Piedra, sans-serif;
   src: url(./fonts/Piedra-Regular.ttf);
 }
 
@@ -19,10 +19,7 @@
   gap: 1rem;
   background-image: url("./img/background.png");
   background-color: #eb8d00;
-  grid-template-areas:
-    "nav"
-    "main"
-    "footer"
+  grid-template-areas: "nav" "main" "footer";
 }
 
 main {
@@ -30,13 +27,12 @@ main {
   grid-area: main;
   display: grid;
   gap: 15px;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-areas: 
-      "section";
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "section";
   background-image: url("./img/focos.png");
   background-repeat: no-repeat;
-  background-position:0% -0.1%;
+  background-position: 0% -0.1%;
   align-content: center;
   justify-content: center;
   justify-items: center;
@@ -63,7 +59,8 @@ nav {
   left: 0;
 }
 
-nav, nav a {
+nav,
+nav a {
   border-radius: 5px;
   padding: 10px;
 }
@@ -75,7 +72,7 @@ nav, nav a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Piedra;
+  font-family: Piedra, sans-serif;
   font-size: 17px;
 }
 
@@ -98,12 +95,11 @@ footer {
   display: inline;
   grid-area: footer;
   background-color: #333;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 50px;
   color: #fff;
   text-align: center;
   letter-spacing: 4px;
-  font-family: Piedra;
+  font-family: Piedra, sans-serif;
 }
 
 /* media queries */
@@ -111,10 +107,7 @@ footer {
 @media only screen and (max-width: 500px) {
   .wrapper {
     grid-template-columns: 20% auto;
-    grid-template-areas:
-      "nav nav"
-      "main main"
-      "footer footer";
+    grid-template-areas: "nav nav" "main main" "footer footer";
   }
 }
 
@@ -122,13 +115,9 @@ footer {
   .wrapper {
     gap: 20px;
     grid-template-columns: 120px auto 120px;
-    grid-template-areas: 
-      "nav nav nav"
-      "main main main"
-      "footer footer footer";
+    grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
   }
 }
-
 
 /* main section  */
 
@@ -146,165 +135,161 @@ footer {
 
 #home .item {
   position: relative;
-  display: flex;  
+  display: flex;
   background-image: url("./img/bienve.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-  /* concepto */
+/* concepto */
 
-  #concepto {
-    position: relative;
-    grid-area: section;
-    display: grid;
-    width: 988px;
-    height: 945px;
-    margin-top: -100px;
-  }
-  
-  #concepto .item {
-    position: relative;
-    display: flex;  
-    background-image: url("./img/concepto.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+#concepto {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 988px;
+  height: 945px;
+  margin-top: -100px;
+}
 
-  /* estelares */
+#concepto .item {
+  position: relative;
+  display: flex;
+  background-image: url("./img/concepto.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  #estelares {
-    position: relative;
-    grid-area: section;
-    display: grid;
-    width: 60%;
-    gap: 1rem;
-    grid-template-columns: 30% auto;
-    grid-template-rows: 556px 278px;
-  }
+/* estelares */
 
-  #estelares .item-1 {   
-    position: relative;
-    display: flex;
-    background-image: url("./img/sucursalespromos.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+#estelares {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 60%;
+  gap: 1rem;
+  grid-template-columns: 30% auto;
+  grid-template-rows: 556px 278px;
+}
 
-  #estelares .item-2 {
-    position: relative;
-    display: flex;  
-    background-image: url("./img/promos.gif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-  }
+#estelares .item-1 {
+  position: relative;
+  display: flex;
+  background-image: url("./img/sucursalespromos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
-  #estelares .item-3 {
-    grid-column: 1 / span 2;
-    position: relative;
-    display: flex;  
-    background-image: url("./img/taqueso.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  /* carta */
+#estelares .item-2 {
+  position: relative;
+  display: flex;
+  background-image: url("./img/promos.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
-  #carta {
-    position: relative;
-    grid-area: section;
-    display: grid;
-    width: 60%;
-    gap: 1rem;
-    grid-template-columns: 45% auto;
-    grid-template-rows: 192px 685px;
-    grid-template-areas: 
-      "a b"
-      "c b";
-  }
+#estelares .item-3 {
+  grid-column: 1 / span 2;
+  position: relative;
+  display: flex;
+  background-image: url("./img/taqueso.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  #carta .item-1 {
-    grid-area: a;
-    position: relative;
-    display: flex;  
-    background-image: url("./img/menubutton.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+/* carta */
 
-  #carta .item-2 {
-    grid-area: b;
-    position: relative;
-    display: flex;  
-    background-image: url("./img/carta-desc.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+#carta {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 60%;
+  gap: 1rem;
+  grid-template-columns: 45% auto;
+  grid-template-rows: 192px 685px;
+  grid-template-areas: "a b" "c b";
+}
 
-  #carta .item-3 {
-    grid-area: c;
-    position: relative;
-    display: flex;  
-    background-image: url("./img/galeria.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+#carta .item-1 {
+  grid-area: a;
+  position: relative;
+  display: flex;
+  background-image: url("./img/menubutton.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  /* domicilio */
+#carta .item-2 {
+  grid-area: b;
+  position: relative;
+  display: flex;
+  background-image: url("./img/carta-desc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  #domicilio {
-    position: relative;
-    grid-area: section;
-    display: grid;
-    width: 60%;
-    gap: 1rem;
-    margin-top: -55px;
-    grid-template-columns: auto 25%;
-    grid-template-rows: 340px 580px;
-    grid-template-areas: 
-      "a b"
-      "c b";
-  }
+#carta .item-3 {
+  grid-area: c;
+  position: relative;
+  display: flex;
+  background-image: url("./img/galeria.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  #domicilio .item-1 {
-    grid-area: a;
-    position: relative;
-    display: flex;  
-    background-image: url("./img/taquizasadom.png");
-    background-repeat: no-repeat;
-    background-size: 804px 304px;
-    background-position: 0% 50%;
-  }
+/* domicilio */
 
-  #domicilio .item-2 {
-    grid-area: b;
-    position: relative;
-    display: flex;  
-    background-image: url("./img/sucursales.png");
-    background-repeat: no-repeat;
-    background-size: 250px 735px;
-    background-position: center center;
-  }
+#domicilio {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 60%;
+  gap: 1rem;
+  margin-top: -55px;
+  grid-template-columns: auto 25%;
+  grid-template-rows: 340px 580px;
+  grid-template-areas: "a b" "c b";
+}
 
-  #domicilio .item-3 {
-    grid-area: c;
-    position: relative;
-    display: grid;
-    align-items: initial;
-    justify-content: center;
-    margin-top: -55px;
-  }
+#domicilio .item-1 {
+  grid-area: a;
+  position: relative;
+  display: flex;
+  background-image: url("./img/taquizasadom.png");
+  background-repeat: no-repeat;
+  background-size: 804px 304px;
+  background-position: 0% 50%;
+}
 
-  .map {
-    font-family: Pacifico, 'Helvetica Neue';
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 40px;
-    color: #000;
-    text-shadow: 2px 2px #555;
-    transform: rotate(-8deg);
-  }
+#domicilio .item-2 {
+  grid-area: b;
+  position: relative;
+  display: flex;
+  background-image: url("./img/sucursales.png");
+  background-repeat: no-repeat;
+  background-size: 250px 735px;
+  background-position: center center;
+}
+
+#domicilio .item-3 {
+  grid-area: c;
+  position: relative;
+  display: grid;
+  align-items: initial;
+  justify-content: center;
+  margin-top: -55px;
+}
+
+.map {
+  font-family: Pacifico, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #000;
+  text-shadow: 2px 2px #555;
+  transform: rotate(-8deg);
+}
 
 /* contacto  */
 
@@ -321,7 +306,7 @@ footer {
 
 #contacto .item {
   position: relative;
-  display: flex;  
+  display: flex;
   background-image: url("./img/contacto-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -341,7 +326,8 @@ footer {
   margin: 15px 0;
 }
 
-.frm-section input, .frm-section textarea {
+.frm-section input,
+.frm-section textarea {
   margin-top: 3px;
   width: 100%;
   border: 2px solid #9c9b97;

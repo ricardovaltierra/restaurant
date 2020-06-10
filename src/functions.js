@@ -41,4 +41,6 @@ export function tabContacto() {
   content.appendChild(contacto());
 }
 
-export default { tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto };
+export default {
+  tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto,
+};

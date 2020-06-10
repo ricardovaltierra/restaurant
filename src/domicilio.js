@@ -3,7 +3,7 @@ export default function domicilio() {
   const item1 = document.createElement('div');
   const item2 = document.createElement('div');
   const item3 = document.createElement('div');
-  
+
   domicilioPage.id = 'domicilio';
 
   item1.classList.add('item-1');

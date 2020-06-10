@@ -3,7 +3,7 @@ export default function carta() {
   const item1 = document.createElement('div');
   const item2 = document.createElement('div');
   const item3 = document.createElement('div');
-  
+
   cartaPage.id = 'carta';
 
   item1.classList.add('item-1');
