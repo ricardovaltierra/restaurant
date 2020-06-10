@@ -15,14 +15,11 @@ The page is a tribute page from the official website for a mexican-food restaura
 
 
 ## Live Version
-Here: [click](https://raw.githack.com/ricardovaltierra/JS-Tic-Tac-Toe/js-pattern-design/index.html)
+Here: [click](https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#)
 
 ## Usage
-### Register and playing
-<img src="assets/img/usage_1.gif" alt="Delete books and change status" width="400" />
-
-### Make a tie and play a new game
-<img src="assets/img/usage_2.gif" alt="register new book" width="400" />
+### Watch the menu and leave a comment between tabs
+<img src="./src/img/usage_1.gif" alt="Watch our menu and leave a comment" width="1000" />
 
 You can clone the repo and run over your personal server.
 
