@@ -141,6 +141,7 @@ footer {
   width: 986px;
   height: 778px;
   overflow: visible;
+  margin-top: -65px;
 }
 
 #home .item {
