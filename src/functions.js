@@ -1,9 +1,9 @@
 import home from './home';
 
-export function tabHome() {
+function tabHome() {
   const content = document.getElementById('main');
   content.innerHTML = '';
-  content.appendChild(home);
+  content.appendChild(home());
 }
 
-export default { tabHome };
+export default { tabHome }
