@@ -1,0 +1,352 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+  font-family: Piedra, sans-serif;
+  src: url(./fonts/Piedra-Regular.ttf);
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(./fonts/Pacifico-Regular.ttf);
+}
+
+.wrapper {
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  background-image: url("./img/background.png");
+  background-color: #eb8d00;
+  grid-template-areas: "nav" "main" "footer";
+}
+
+main {
+  position: relative;
+  grid-area: main;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "section";
+  background-image: url("./img/focos.png");
+  background-repeat: no-repeat;
+  background-position: 0% -0.1%;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 150px;
+}
+
+nav {
+  position: relative;
+  grid-area: nav;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  width: 65%;
+  background-color: #333;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  z-index: 999;
+  transform: rotate(-8deg);
+  margin-left: -150px;
+  top: -40px;
+  left: 0;
+}
+
+nav,
+nav a {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.nav-element {
+  float: left;
+  color: #f2f2f2;
+  margin: 0 60px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Piedra, sans-serif;
+  font-size: 17px;
+}
+
+#logo-link {
+  margin: 0;
+}
+
+.nav-element:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-element .active {
+  background-color: #eb8d00;
+  color: #fff;
+}
+
+footer {
+  position: relative;
+  display: inline;
+  grid-area: footer;
+  background-color: #333;
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: Piedra, sans-serif;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    grid-template-columns: 20% auto;
+    grid-template-areas: "nav nav" "main main" "footer footer";
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    gap: 20px;
+    grid-template-columns: 120px auto 120px;
+    grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
+  }
+}
+
+/* main section  */
+
+/* home  */
+
+#home {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 986px;
+  height: 778px;
+  overflow: visible;
+  margin-top: -65px;
+}
+
+#home .item {
+  position: relative;
+  display: flex;
+  background-image: url("./img/bienve.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* concepto */
+
+#concepto {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 988px;
+  height: 945px;
+  margin-top: -100px;
+}
+
+#concepto .item {
+  position: relative;
+  display: flex;
+  background-image: url("./img/concepto.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* estelares */
+
+#estelares {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 60%;
+  gap: 1rem;
+  grid-template-columns: 30% auto;
+  grid-template-rows: 556px 278px;
+}
+
+#estelares .item-1 {
+  position: relative;
+  display: flex;
+  background-image: url("./img/sucursalespromos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#estelares .item-2 {
+  position: relative;
+  display: flex;
+  background-image: url("./img/promos.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#estelares .item-3 {
+  grid-column: 1 / span 2;
+  position: relative;
+  display: flex;
+  background-image: url("./img/taqueso.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* carta */
+
+#carta {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 60%;
+  gap: 1rem;
+  grid-template-columns: 45% auto;
+  grid-template-rows: 192px 685px;
+  grid-template-areas: "a b" "c b";
+}
+
+#carta .item-1 {
+  grid-area: a;
+  position: relative;
+  display: flex;
+  background-image: url("./img/menubutton.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#carta .item-2 {
+  grid-area: b;
+  position: relative;
+  display: flex;
+  background-image: url("./img/carta-desc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#carta .item-3 {
+  grid-area: c;
+  position: relative;
+  display: flex;
+  background-image: url("./img/galeria.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* domicilio */
+
+#domicilio {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 60%;
+  gap: 1rem;
+  margin-top: -55px;
+  grid-template-columns: auto 25%;
+  grid-template-rows: 340px 580px;
+  grid-template-areas: "a b" "c b";
+}
+
+#domicilio .item-1 {
+  grid-area: a;
+  position: relative;
+  display: flex;
+  background-image: url("./img/taquizasadom.png");
+  background-repeat: no-repeat;
+  background-size: 804px 304px;
+  background-position: 0% 50%;
+}
+
+#domicilio .item-2 {
+  grid-area: b;
+  position: relative;
+  display: flex;
+  background-image: url("./img/sucursales.png");
+  background-repeat: no-repeat;
+  background-size: 250px 735px;
+  background-position: center center;
+}
+
+#domicilio .item-3 {
+  grid-area: c;
+  position: relative;
+  display: grid;
+  align-items: initial;
+  justify-content: center;
+  margin-top: -55px;
+}
+
+.map {
+  font-family: Pacifico, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #000;
+  text-shadow: 2px 2px #555;
+  transform: rotate(-8deg);
+}
+
+/* contacto  */
+
+#contacto {
+  position: relative;
+  grid-area: section;
+  display: grid;
+  width: 973px;
+  height: 498px;
+  overflow: visible;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+#contacto .item {
+  position: relative;
+  display: flex;
+  background-image: url("./img/contacto-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mail-form {
+  position: absolute;
+  display: grid;
+  top: 80px;
+  right: 280px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.frm-section {
+  margin: 15px 0;
+}
+
+.frm-section input,
+.frm-section textarea {
+  margin-top: 3px;
+  width: 100%;
+  border: 2px solid #9c9b97;
+  background-color: #e8e1cd;
+  color: #555;
+}
+
+.frm-section textarea {
+  margin-bottom: -5px;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: none;
+  color: #222;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
