@@ -2,14 +2,12 @@
 
 > Microverse ES6 Project
 
-<p align="center">
+<p align="right">
   <br>
-   <a href="https://github.com/ricardovaltierra/restaurant"><strong>Explore the repo »</strong></a>
+  <a href="https://github.com/ricardovaltierra/restaurant">Explore the repo »</a>
   <br>
-    <a href="https://github.com/ricardovaltierra/restaurant/issues">Request Feature</a>
-  </p>
-  <h2 align="center"><a href="https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#"><strong>Live version</strong></a></h2>
-
+  <a href="https://github.com/ricardovaltierra/restaurant/issues">Request Feature</a>
+</p>
 
 ## Table of Contents
 
@@ -39,10 +37,12 @@ Restaurant page tribute page project for the application of ES6 and Webpack 4 wi
 The page is a tribute page from the official website for a mexican-food restaurant. All used images are property of developer team for 'http://www.donpastor.mx/';
 
 ## Preview
-### Watch the menu and leave a comment between tabs
-<img src="./src/img/usage_1.gif" alt="Watch our menu and leave a comment" width="1000" />
+Watch the menu and leave a comment between tabs
+<img src="./src/img/usage_1.gif" alt="Watch our menu and leave a comment" width="600" />
 
-Feel free to use and recommend this app.
+> [App](https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#)
+
+Feel free to use and recommend it.
 
 ### Built With
 
