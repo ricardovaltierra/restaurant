@@ -38,9 +38,9 @@ The page is a tribute page from the official website for a mexican-food restaura
 
 ## Preview
 Watch the menu and leave a comment between tabs
-<img src="./src/img/usage_1.gif" alt="Watch our menu and leave a comment" width="600" />
+<img src="./src/img/usage_1.gif" alt="Watch our menu and leave a comment" width="1000" />
 
-> [App](https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#)
+> [Live Version!](https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#)
 
 Feel free to use and recommend it.
 
