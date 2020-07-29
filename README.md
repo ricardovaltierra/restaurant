@@ -1,47 +1,128 @@
-Restaurant Page
-==============
-Restaurant page tribute page project for the application of ES6 and webpack with modularized code;
+# Restaurant Page
+
+> Microverse ES6 Project
+
+<p align="center">
+  <br>
+   <a href="https://github.com/ricardovaltierra/restaurant"><strong>Explore the repo »</strong></a>
+  <br>
+    <a href="https://github.com/ricardovaltierra/restaurant/issues">Request Feature</a>
+  </p>
+  <h2 align="center"><a href="https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#"><strong>Live version</strong></a></h2>
+
+
+## Table of Contents
+
+* [About the Project](#about-the-project)
+
+* [Preview](#preview)
+
+* [Built With](#built-with)
+
+* [Getting Started](#getting-started)
+
+* [How it Works](#how-it-works)
+
+* [Contributing](#contributing)
+
+* [Contact](#contact)
+
+* [MIT License](#mit-license)
+
+* [Creative Commons License](#creative-commons-license)
+
+
+## About The Project
+
+Restaurant page tribute page project for the application of ES6 and Webpack 4 with modularized code;
 
 The page is a tribute page from the official website for a mexican-food restaurant. All used images are property of developer team for 'http://www.donpastor.mx/';
 
-### Built with
-
-- JS
-- CSS
-- HTML
-- Node
-  - npm
-  - webpack
-
-
-## Live Version
-Here: [click](https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#)
-
-## Usage
+## Preview
 ### Watch the menu and leave a comment between tabs
 <img src="./src/img/usage_1.gif" alt="Watch our menu and leave a comment" width="1000" />
 
-You can clone the repo and run over your personal server.
+Feel free to use and recommend this app.
 
-## 🤝 Contributing
+### Built With
 
-Contributions are more than welcome!<br/>Feel free to check [issues page](https://github.com/ricardovaltierra/restaurant-page/issues).
+* [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5)
 
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-1. Fork (https://github.com/ricardovaltierra/restaurant-page/fork)
-2. Create your working branch (git checkout -b [branch_name])
-3. Commit your changes (git commit -am 'what you will add or fix or improve')
-4. Push (git push origin [branch_name])
-5. Create a PR
+* [ES6](https://es6.io/)
 
-## 🤖 Contributor
+* [Webpack 4](https://webpack.js.org/)
 
-Ricardo Valtierra - [GitHub](https://github.com/ricardovaltierra)
+* npm Packages used:
+    * [ESLint](https://eslint.org/)
+    * [StyleLint](https://stylelint.io/)
+    * [Webpack asset managers](https://webpack.js.org/guides/asset-management/)
 
-## 🙋‍♂ Support :)
+## Getting Started
 
-Give a ⭐️ if you liked it!
+To get a local copy up and running follow these simple steps.
 
-## 📝 License
+Clone or fork the <a href="https://github.com/ricardovaltierra/restaurant">repo</a> [git@github.com:ricardovaltierra/restaurant.git]
+
+*note you need have install npm or yarn
+* [npm](https://www.npmjs.com/get-npm)
+* [yarn](https://classic.yarnpkg.com/en/docs/install)
+
+## How it Works
+
+This webpage is built with pure Javascript, it needs Webpack to proper use because has various imports of code and it has various little helper functions. All of the resources (images, fonts) and .js files are located inside `/src` folder.
+
+### Running the code
+
+*   Navigate to the root directory of the project
+
+*   Run this command on your terminal to add all the required packages and dependencies
+    ```
+    $ npm install
+    ```
+*   Once that build with
+    ```
+    $ npm run build
+    ```
+*   Now the app is ready, you can just open the generated index file on your server (can use VS Code Live).
+   
+*   If you're onto make some code edition you can 'watch' the live changes as follows
+    ```
+    $ npm run watch
+    ```    
+   
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+
+5. Open a Pull Request
+
+## Contact
+
+Ricardo Valtierra - [@RicardoValtie15](https://twitter.com/RicardoValtie15) - ricardo_valtierra@outlook.com  - [linkedin.com/in/ricardovaltierra/](https://www.linkedin.com/in/ricardovaltierra/)
+
+## MIT License
 
 This project is under the [MIT](LICENSE) license.
+
+## Creative Commons License
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+"Don Pastor Taquerías" by [RiveraCarlos Disegno](https://www.behance.net/riveracarlos) is licensed under a [Creative Commons Attribution-ShareAlike 4.0
+International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
