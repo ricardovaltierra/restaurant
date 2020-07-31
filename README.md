@@ -34,7 +34,7 @@
 
 Restaurant page tribute page project for the application of ES6 and Webpack 4 with modularized code.
 
-The page is a tribute page from the official website for a Mexican-Food restaurant. All used images are property of `RiveraCarlos Disegno` developer team for 'http://www.donpastor.mx/'.
+The page is a tribute page from the official website for a Mexican-Food restaurant. All used images on this repo are well attributed to its authoring at the bottom section of this file.
 
 ## Preview
 ### Watch the menu and leave a comment between tabs
