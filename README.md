@@ -1,6 +1,6 @@
 # Restaurant Page
 
-> Microverse ES6 Project
+> Microverse ES6 Project.
 
 <p align="right">
   <br>
@@ -32,12 +32,12 @@
 
 ## About The Project
 
-Restaurant page tribute page project for the application of ES6 and Webpack 4 with modularized code;
+Restaurant page tribute page project for the application of ES6 and Webpack 4 with modularized code.
 
-The page is a tribute page from the official website for a mexican-food restaurant. All used images are property of developer team for 'http://www.donpastor.mx/';
+The page is a tribute page from the official website for a Mexican-Food restaurant. All used images are property of `RiveraCarlos Disegno` developer team for 'http://www.donpastor.mx/'.
 
 ## Preview
-Watch the menu and leave a comment between tabs
+### Watch the menu and leave a comment between tabs
 <img src="./src/img/usage_1.gif" alt="Watch our menu and leave a comment" width="1000" />
 
 > [Live Version!](https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#)
@@ -63,9 +63,9 @@ Feel free to use and recommend it.
 
 To get a local copy up and running follow these simple steps.
 
-Clone or fork the <a href="https://github.com/ricardovaltierra/restaurant">repo</a> [git@github.com:ricardovaltierra/restaurant.git]
+Clone or fork the <a href="https://github.com/ricardovaltierra/restaurant">repo</a> [git@github.com:ricardovaltierra/restaurant.git].
 
-*note you need have install npm or yarn
+*note you need have install npm or yarn.
 * [npm](https://www.npmjs.com/get-npm)
 * [yarn](https://classic.yarnpkg.com/en/docs/install)
 
@@ -75,36 +75,36 @@ This webpage is built with pure Javascript, it needs Webpack to proper use becau
 
 ### Running the code
 
-*   Navigate to the root directory of the project
+*   Navigate to the root directory of the project.
 
-*   Run this command on your terminal to add all the required packages and dependencies
+*   Run this command on your terminal to add all the required packages and dependencies.
     ```
     $ npm install
     ```
-*   Once that build with
+*   Once that build with.
     ```
     $ npm run build
     ```
 *   Now the app is ready, you can just open the generated index file on your server (can use VS Code Live).
    
-*   If you're onto make some code edition you can 'watch' the live changes as follows
+*   If you're onto make some code edition you can 'watch' the live changes as follows.
     ```
     $ npm run watch
     ```    
    
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
+1. Fork the Project.
 
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
 
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`).
 
-5. Open a Pull Request
+5. Open a Pull Request.
 
 ## Contact
 
