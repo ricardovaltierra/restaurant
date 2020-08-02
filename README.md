@@ -32,9 +32,9 @@
 
 ## About The Project
 
-Restaurant page tribute page project for the application of ES6 and Webpack 4 with modularized code.
+Restaurant tribute page project with application of ES6 and Webpack 4 on modularized code.
 
-The page is a tribute page from the official website for a Mexican-Food restaurant. All used images on this repo are well attributed to its authoring at the bottom section of this file.
+This is a tribute page from the official website 'donpastor.mx'. All used images on this repo are well attributed to its authoring at the bottom section of this file.
 
 ## Preview
 ### Watch the menu and leave a comment between tabs
