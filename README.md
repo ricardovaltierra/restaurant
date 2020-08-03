@@ -38,9 +38,9 @@ This is a tribute page from the official website 'donpastor.mx'. All used images
 
 ## Preview
 ### Watch the menu and leave a comment between tabs
-<img src="./src/img/usage_1.gif" alt="Watch our menu and leave a comment" width="1000" />
+<img src="./src/assets/img/usage_1.gif" alt="Watch our menu and leave a comment" width="600" />
 
-> [Live Version!](https://raw.githack.com/ricardovaltierra/restaurant-page/page-design/dist/index.html#)
+> [Live Version](https://don-pastor-clone.netlify.app/)
 
 Feel free to use and recommend it.
 
