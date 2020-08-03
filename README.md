@@ -40,7 +40,7 @@ This is a tribute page from the official website 'donpastor.mx'. All used images
 ### Watch the menu and leave a comment between tabs
 <img src="./src/assets/img/usage_1.gif" alt="Watch our menu and leave a comment" width="600" />
 
-> [Live Version](https://don-pastor-clone.netlify.app/)
+> [Live Version](https://restaurant-clone.netlify.app/)
 
 Feel free to use and recommend it.
 
