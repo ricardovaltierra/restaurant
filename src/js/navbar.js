@@ -1,4 +1,4 @@
-import Image from './img/logo.png';
+import Image from '../assets/img/logo.png';
 
 export default function navbar() {
   const nav = document.createElement('nav');

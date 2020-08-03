@@ -1,9 +1,15 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  devtool: 'eval-source-map',
+  mode: 'development',
+  entry: {
+    app: './src/index.js',
+  },
   output: {
-    filename: 'main.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
@@ -24,5 +30,15 @@ module.exports = {
         use: ['file-loader'],
       },
     ],
+  },
+  plugins: [
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      title: 'Don Pastor',
+      filename: 'index.html',
+    }),
+  ],
+  devServer: {
+    contentBase: path.resolve(__dirname, 'dist'),
   },
 };

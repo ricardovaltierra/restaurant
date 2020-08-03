@@ -1,23 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 * {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-@font-face {
-  font-family: Piedra, sans-serif;
-  src: url(./fonts/Piedra-Regular.ttf);
-}
-
-@font-face {
-  font-family: Pacifico;
-  src: url(./fonts/Pacifico-Regular.ttf);
 }
 
 .wrapper {
   position: relative;
   display: grid;
   gap: 1rem;
-  background-image: url("./img/background.png");
+  background-image: url("../img/background.png");
   background-color: #eb8d00;
   grid-template-areas: "nav" "main" "footer";
 }
@@ -30,7 +24,7 @@ main {
   grid-template-columns: 100%;
   grid-template-rows: repeat(1, 1fr);
   grid-template-areas: "section";
-  background-image: url("./img/focos.png");
+  background-image: url("../img/focos.png");
   background-repeat: no-repeat;
   background-position: 0% -0.1%;
   align-content: center;
@@ -72,7 +66,7 @@ nav a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Piedra, sans-serif;
+  font-family: 'Piedra', cursive;
   font-size: 17px;
 }
 
@@ -99,7 +93,7 @@ footer {
   color: #fff;
   text-align: center;
   letter-spacing: 4px;
-  font-family: Piedra, sans-serif;
+  font-family: 'Piedra', cursive;
 }
 
 /* media queries */
@@ -136,7 +130,7 @@ footer {
 #home .item {
   position: relative;
   display: flex;
-  background-image: url("./img/bienve.gif");
+  background-image: url("../img/bienve.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -155,7 +149,7 @@ footer {
 #concepto .item {
   position: relative;
   display: flex;
-  background-image: url("./img/concepto.gif");
+  background-image: url("../img/concepto.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -175,7 +169,7 @@ footer {
 #estelares .item-1 {
   position: relative;
   display: flex;
-  background-image: url("./img/sucursalespromos.png");
+  background-image: url("../img/sucursalespromos.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -183,7 +177,7 @@ footer {
 #estelares .item-2 {
   position: relative;
   display: flex;
-  background-image: url("./img/promos.gif");
+  background-image: url("../img/promos.gif");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -193,7 +187,7 @@ footer {
   grid-column: 1 / span 2;
   position: relative;
   display: flex;
-  background-image: url("./img/taqueso.png");
+  background-image: url("../img/taqueso.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -215,7 +209,7 @@ footer {
   grid-area: a;
   position: relative;
   display: flex;
-  background-image: url("./img/menubutton.png");
+  background-image: url("../img/menubutton.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -224,7 +218,7 @@ footer {
   grid-area: b;
   position: relative;
   display: flex;
-  background-image: url("./img/carta-desc.png");
+  background-image: url("../img/carta-desc.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -233,7 +227,7 @@ footer {
   grid-area: c;
   position: relative;
   display: flex;
-  background-image: url("./img/galeria.gif");
+  background-image: url("../img/galeria.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -256,7 +250,7 @@ footer {
   grid-area: a;
   position: relative;
   display: flex;
-  background-image: url("./img/taquizasadom.png");
+  background-image: url("../img/taquizasadom.png");
   background-repeat: no-repeat;
   background-size: 804px 304px;
   background-position: 0% 50%;
@@ -266,7 +260,7 @@ footer {
   grid-area: b;
   position: relative;
   display: flex;
-  background-image: url("./img/sucursales.png");
+  background-image: url("../img/sucursales.png");
   background-repeat: no-repeat;
   background-size: 250px 735px;
   background-position: center center;
@@ -282,7 +276,7 @@ footer {
 }
 
 .map {
-  font-family: Pacifico, sans-serif;
+  font-family: 'Pacifico', cursive;
   text-align: center;
   text-transform: uppercase;
   font-size: 40px;
@@ -307,7 +301,7 @@ footer {
 #contacto .item {
   position: relative;
   display: flex;
-  background-image: url("./img/contacto-bg.png");
+  background-image: url("../img/contacto-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

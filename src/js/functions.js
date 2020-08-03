@@ -1,9 +1,9 @@
-import home from './home';
-import concepto from './concepto';
-import estelares from './estelares';
-import carta from './carta';
-import domicilio from './domicilio';
-import contacto from './contacto';
+import home from './tabs/home';
+import concepto from './tabs/concepto';
+import estelares from './tabs/estelares';
+import carta from './tabs/carta';
+import domicilio from './tabs/domicilio';
+import contacto from './tabs/contacto';
 
 export function tabHome() {
   const content = document.getElementById('main');
@@ -41,6 +41,14 @@ export function tabContacto() {
   content.appendChild(contacto());
 }
 
+export function setIcon(favicon) {
+  const head = document.querySelector('head');
+  const linkIcon = document.createElement('link');
+  linkIcon.setAttribute('rel', 'shortcut icon');
+  linkIcon.setAttribute('href', favicon);
+  head.appendChild(linkIcon);
+}
+
 export default {
-  tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto,
+  tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto, setIcon
 };
