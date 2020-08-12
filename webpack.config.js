@@ -38,8 +38,8 @@ module.exports = {
       filename: 'index.html',
       meta: {
         author: 'Ricardo Valtierra',
-        'og:image': { property: 'og:image', content: '../src/assets/img/preview.png' },
-        'linkedin:image': { name: 'linkedin:image', content: '../src/assets/img/preview.png' },
+        'og:image': { property: 'og:image', content: '../../src/assets/img/preview.png' },
+        'linkedin:image': { name: 'linkedin:image', content: '../../src/assets/img/preview.png' },
         'og:url': { property: 'og:url', content: 'https://restaurant-clone.netlify.app/' },
         'linkedin:card': 'summary',
         'og:description': { property: 'og:description', content: 'This is a tribute page from the official website \'donpastor.mx\'.' },
