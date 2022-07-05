@@ -40,6 +40,7 @@ nav {
   justify-self: center;
   justify-content: center;
   width: 65%;
+  height: 4rem;
   background-color: #333;
 }
 
@@ -56,18 +57,19 @@ nav {
 nav,
 nav a {
   border-radius: 5px;
-  padding: 10px;
+  padding: 0.8rem;
 }
 
 .nav-element {
   float: left;
   color: #f2f2f2;
-  margin: 0 60px;
+  margin: 0 2rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Piedra', cursive;
-  font-size: 17px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
 }
 
 #logo-link {
@@ -252,8 +254,8 @@ footer {
   display: flex;
   background-image: url("../img/taquizasadom.png");
   background-repeat: no-repeat;
-  background-size: 804px 304px;
-  background-position: 0% 50%;
+  background-position: 50% 50%;
+  background-size: 38rem 13rem;
 }
 
 #domicilio .item-2 {
@@ -262,7 +264,7 @@ footer {
   display: flex;
   background-image: url("../img/sucursales.png");
   background-repeat: no-repeat;
-  background-size: 250px 735px;
+  background-size: 12rem 40rem;
   background-position: center center;
 }
 
@@ -279,7 +281,7 @@ footer {
   font-family: 'Pacifico', cursive;
   text-align: center;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 2rem;
   color: #000;
   text-shadow: 2px 2px #555;
   transform: rotate(-8deg);
