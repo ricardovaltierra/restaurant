@@ -50,5 +50,5 @@ export function setIcon(favicon) {
 }
 
 export default {
-  tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto, setIcon
+  tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto, setIcon,
 };
