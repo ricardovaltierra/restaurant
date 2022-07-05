@@ -4,7 +4,7 @@ import mainElement from './js/main-element';
 import footer from './js/footer';
 import favicon from './assets/img/01.png';
 import {
-  tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto, setIcon
+  tabHome, tabConcepto, tabEstelares, tabCarta, tabDomicilio, tabContacto, setIcon,
 } from './js/functions';
 
 setIcon(favicon);
