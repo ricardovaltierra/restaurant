@@ -310,10 +310,11 @@ footer {
 }
 
 .mail-form {
+  width: 250px;
   position: absolute;
   display: grid;
-  top: 80px;
-  right: 280px;
+  top: 4.5rem;
+  right: 16.5rem;
   text-align: left;
   text-transform: uppercase;
   font-size: 10px;
@@ -333,6 +334,7 @@ footer {
 }
 
 .frm-section textarea {
+  max-height: 90px;
   margin-bottom: -5px;
 }
 
