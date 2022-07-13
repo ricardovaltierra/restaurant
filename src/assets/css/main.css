@@ -55,14 +55,15 @@ nav {
 
 nav,
 nav a {
-  border-radius: 5px;
-  padding: 0.8rem;
+  border-radius: 8px 8px;
+  padding: 0.7rem 0.8rem;
 }
 
 .nav-element {
   float: left;
-  color: #f2f2f2;
-  margin: 0 2rem;
+  color: #e0e0e0;
+  padding: auto 0;
+  margin: 0 1rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -72,12 +73,13 @@ nav a {
 }
 
 #logo-link {
-  margin: 0;
+  margin: auto 1rem;
 }
 
 .nav-element:hover {
-  background-color: #ddd;
-  color: black;
+  padding: 0.5rem;
+  background-color: #444;
+  color: #c0c0c0;
 }
 
 .nav-element .active {
