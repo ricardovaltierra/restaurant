@@ -82,9 +82,9 @@ nav a {
   color: #c0c0c0;
 }
 
-.nav-element .active {
-  background-color: #eb8d00;
-  color: #fff;
+.nav-element.active {
+  background-color: #444;
+  color: #c0c0c0;
 }
 
 footer {
