@@ -95,7 +95,7 @@ footer {
   padding: 50px;
   color: #fff;
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 0.5rem;
   font-family: 'Piedra', cursive;
 }
 
@@ -124,8 +124,8 @@ footer {
   position: relative;
   grid-area: section;
   display: grid;
-  width: 986px;
-  height: 778px;
+  width: 80%;
+  height: 638px;
   overflow: visible;
   margin-top: -65px;
 }
@@ -135,7 +135,8 @@ footer {
   display: flex;
   background-image: url("../img/bienve.gif");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top;
+  background-size: 80%;
 }
 
 /* concepto */
@@ -257,9 +258,10 @@ footer {
   display: grid;
   width: 60%;
   gap: 1rem;
-  margin-top: -55px;
+  margin-top: -15px;
+  padding: 1rem;
   grid-template-columns: auto 25%;
-  grid-template-rows: 340px 580px;
+  grid-template-rows: 150px 500px;
   grid-template-areas: "a b" "c b";
 }
 
@@ -269,18 +271,23 @@ footer {
   display: flex;
   background-image: url("../img/taquizasadom.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 38rem 13rem;
+  background-position: top;
+  background-size: 100%;
+  width: 80%;
+  max-height: 174px;
 }
 
 #domicilio .item-2 {
   grid-area: b;
   position: relative;
   display: flex;
+  margin-left: -4.0rem;
   background-image: url("../img/sucursales.png");
   background-repeat: no-repeat;
-  background-size: 12rem 40rem;
-  background-position: center center;
+  background-position: top;
+  background-size: 90%;
+  width: 227px;
+  max-height: 581px;
 }
 
 #domicilio .item-3 {
@@ -289,17 +296,19 @@ footer {
   display: grid;
   align-items: initial;
   justify-content: center;
-  margin-top: -55px;
+  max-width: 80%;
+  height: 110%;
 }
 
 .map {
+  margin: -0.9rem;
   font-family: 'Pacifico', cursive;
   text-align: center;
-  text-transform: uppercase;
   font-size: 2rem;
+  letter-spacing: 0.5rem;
   color: #000;
   text-shadow: 2px 2px #555;
-  transform: rotate(-8deg);
+  transform: rotate(-5deg);
 }
 
 /* contacto  */
