@@ -147,7 +147,7 @@ footer {
   grid-area: section;
   display: grid;
   width: 988px;
-  height: 845px;
+  height: 765px;
   margin-top: -100px;
 }
 
@@ -157,7 +157,7 @@ footer {
   background-image: url("../img/concepto.gif");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 90%;
+  background-size: 80%;
 }
 
 /* estelares */
