@@ -5,6 +5,19 @@ import carta from './tabs/carta';
 import domicilio from './tabs/domicilio';
 import contacto from './tabs/contacto';
 
+function setActiveTab(selectedTab) {
+  const content = document.getElementById('main');
+  const navElements = document.getElementsByClassName('nav-element');
+  const navTabMenu = document.getElementById(`id-${selectedTab.name}`);
+  const navElementsValues = Object.values(navElements);
+
+  content.innerHTML = '';
+  content.appendChild(selectedTab());
+
+  navElementsValues.forEach(val => val.classList.remove('active'));
+  navTabMenu.classList.add('active');
+}
+
 export function tabHome() {
   const content = document.getElementById('main');
   content.innerHTML = '';
@@ -12,33 +25,23 @@ export function tabHome() {
 }
 
 export function tabConcepto() {
-  const content = document.getElementById('main');
-  content.innerHTML = '';
-  content.appendChild(concepto());
+  setActiveTab(concepto);
 }
 
 export function tabEstelares() {
-  const content = document.getElementById('main');
-  content.innerHTML = '';
-  content.appendChild(estelares());
+  setActiveTab(estelares);
 }
 
 export function tabCarta() {
-  const content = document.getElementById('main');
-  content.innerHTML = '';
-  content.appendChild(carta());
+  setActiveTab(carta);
 }
 
 export function tabDomicilio() {
-  const content = document.getElementById('main');
-  content.innerHTML = '';
-  content.appendChild(domicilio());
+  setActiveTab(domicilio);
 }
 
 export function tabContacto() {
-  const content = document.getElementById('main');
-  content.innerHTML = '';
-  content.appendChild(contacto());
+  setActiveTab(contacto);
 }
 
 export function setIcon(favicon) {
