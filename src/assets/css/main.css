@@ -145,7 +145,7 @@ footer {
   grid-area: section;
   display: grid;
   width: 988px;
-  height: 945px;
+  height: 845px;
   margin-top: -100px;
 }
 
@@ -154,7 +154,8 @@ footer {
   display: flex;
   background-image: url("../img/concepto.gif");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top;
+  background-size: 90%;
 }
 
 /* estelares */
@@ -167,7 +168,7 @@ footer {
   gap: 1rem;
   padding: 0.5rem 1rem;
   grid-template-columns: 30% auto;
-  grid-template-rows: 406px 278px;
+  grid-template-rows: 406px 208px;
 }
 
 #estelares .item-1 {
@@ -177,7 +178,7 @@ footer {
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100%;
-  max-height: 427px;
+  height: 427px;
 }
 
 #estelares .item-2 {
@@ -198,6 +199,7 @@ footer {
   background-repeat: no-repeat;
   background-size: 100%;
   max-height: 238px;
+  margin-top: -0.9rem;
 }
 
 /* carta */
@@ -208,6 +210,7 @@ footer {
   display: grid;
   width: 60%;
   gap: 1rem;
+  margin-top: -1.5rem;
   padding: 0.9rem;
   grid-template-columns: 45% auto;
   grid-template-rows: 192px 455px;
