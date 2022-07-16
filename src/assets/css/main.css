@@ -165,8 +165,9 @@ footer {
   display: grid;
   width: 60%;
   gap: 1rem;
+  padding: 0.5rem 1rem;
   grid-template-columns: 30% auto;
-  grid-template-rows: 556px 278px;
+  grid-template-rows: 406px 278px;
 }
 
 #estelares .item-1 {
@@ -174,7 +175,9 @@ footer {
   display: flex;
   background-image: url("../img/sucursalespromos.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: top;
+  background-size: 100%;
+  max-height: 427px;
 }
 
 #estelares .item-2 {
@@ -182,8 +185,9 @@ footer {
   display: flex;
   background-image: url("../img/promos.gif");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-position: top;
+  background-size: 100%;
+  max-height: 376px;
 }
 
 #estelares .item-3 {
@@ -192,7 +196,8 @@ footer {
   display: flex;
   background-image: url("../img/taqueso.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  max-height: 238px;
 }
 
 /* carta */
