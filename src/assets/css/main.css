@@ -203,8 +203,9 @@ footer {
   display: grid;
   width: 60%;
   gap: 1rem;
+  padding: 0.9rem;
   grid-template-columns: 45% auto;
-  grid-template-rows: 192px 685px;
+  grid-template-rows: 192px 455px;
   grid-template-areas: "a b" "c b";
 }
 
@@ -214,7 +215,8 @@ footer {
   display: flex;
   background-image: url("../img/menubutton.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: 100%;
 }
 
 #carta .item-2 {
@@ -223,7 +225,9 @@ footer {
   display: flex;
   background-image: url("../img/carta-desc.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top;
+  background-size: 100%;
+  max-height: 614px;
 }
 
 #carta .item-3 {
@@ -232,7 +236,9 @@ footer {
   display: flex;
   background-image: url("../img/galeria.gif");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top;
+  background-size: 95%;
+  max-height: 460px;
 }
 
 /* domicilio */
