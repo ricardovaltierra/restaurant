@@ -282,7 +282,7 @@ footer {
   grid-area: b;
   position: relative;
   display: flex;
-  margin-left: -4.0rem;
+  margin-left: -4rem;
   background-image: url("../img/sucursales.png");
   background-repeat: no-repeat;
   background-position: top;
