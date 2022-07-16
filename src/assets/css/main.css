@@ -95,8 +95,9 @@ footer {
   padding: 50px;
   color: #fff;
   text-align: center;
-  letter-spacing: 0.5rem;
-  font-family: 'Piedra', cursive;
+  letter-spacing: 0.3rem;
+  font-family: Arial, cursive;
+  font-size: 0.8rem;
 }
 
 /* media queries */
